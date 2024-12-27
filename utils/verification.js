@@ -4,7 +4,8 @@ const verification=(data)=>{
     if(!name){
         arr.push({name:'String name missing'})
         
-    }else if(!subscribedToChannel){
+    }
+    if(!subscribedToChannel){
        arr.push({subscribedToChannele:'String name missing'})
     }
     return arr
